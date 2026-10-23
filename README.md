@@ -23,5 +23,5 @@ Python, Flask, SQLite, pytest, Git
 |--------|----------|-------------|
 | GET | /tasks | List all tasks |
 | POST | /tasks | Add a task (JSON: title) |
-| PUT | /tasks/<id> | Mark a task done (JSON: done) |
+| PUT | /tasks/<{id}> | Mark a task done (JSON: done) |
 | DELETE | /tasks/<id> | Delete a task |
